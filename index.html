@@ -1,0 +1,435 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            width: 1300px;
+            height: 300px;
+            background-color: #DF4739;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .images {
+            height: 300px;
+            width: 300px;
+            background-color: #ffffff;
+            margin-left: 20px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .profilImage {
+            height: 50px;
+            width: 50px;
+        }
+
+        section {
+            border: 1px solid #CCCCCC;
+            width: 1300px;
+
+            background-color: #FFFFFF;
+            flex-direction: column;
+        }
+
+        .barInformasi {
+            width: 300px;
+            background-color: #293A4A;
+            margin-left: 20px;
+        }
+
+        .row {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .textJudul {
+            font-size: 25px;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .textNama {
+            font-size: 65px;
+            font-weight: bold;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .textProfesi {
+            font-size: 25px;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .judulData {
+            padding-top: 18px;
+            padding-bottom: 25px;
+            margin-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            color: #F3F7F9;
+            border-bottom: 3px solid #F3F7F9;
+        }
+
+        .judulData1 {
+            margin-left: 15px;
+            margin-top: 16px;
+            color: #F3F7F9;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-bottom: 30px;
+            padding-right: 10px;
+        }
+
+        .judulData2 {
+            font-weight: bold;
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .mainkonten {
+            display: flex;
+            /* border: 3px solid #293A4A; */
+        }
+
+        .subcontent {
+            /* border: 3px solid #293A4A; */
+            flex: 1;
+            flex-direction: column;
+            margin-left: 15px;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .judulcontent {
+            height: 100px;
+            align-items: center;
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .judulconten1 {
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-left: 30px;
+            margin-right: 10px;
+            border-bottom: 5px solid #DF4739;
+            height: 80px;
+            flex: 1;
+            align-items: center;
+            display: flex;
+        }
+
+        .textcontent {
+            padding-left: 80px;
+            font-size: 20px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pendidikan li {
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .skill li {
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .skill {
+            margin-bottom: 15px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 25px;
+        }
+
+        .bar {
+            width: 100%;
+            height: 8px;
+            background: #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .level {
+            height: 100%;
+            background: #E74C3C;
+            border-radius: 5px;
+
+        }
+
+        .media {
+            margin-top: 10px;
+            border-radius: 10px;
+            margin-right: 10px;
+            background-color: #FFFFFF;
+        }
+
+        .iconmedia {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+        body {
+            background-image: url("image/5651107.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <img src="image/3x4 4x6 .jpg" alt="portifilio" class="images">
+            <div class="row">
+                <div class="textJudul">DAFTAR RIWAYAT HIDUP</div>
+                <div class="textNama">M.NIKO NUR CAHYONO</div>
+                <div class="textProfesi">Junior Engginer | Elektronika "| Programming</div>
+                <div class="media">
+                    <a href="https://nicbot-labs.github.io/myBlog/">
+                        <img src="image/Peronal website.png" alt="" class="iconmedia">
+                    </a>
+                    <a href="https://github.com/NICBot-Labs?tab=repositories">
+                        <img src="image/github-sign.png" alt="" class="iconmedia">
+                    </a>
+                    <a href="https://www.instagram.com/nic_bot.labs/">
+                        <img src="image/instagram.png" alt="" class="iconmedia">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100085499496662">
+                        <img src="image/facebook.png" alt="" class="iconmedia">
+                    </a>
+                    <a href="https://www.linkedin.com/in/m-niko-nchy/">
+                        <img src="image/linkedin.png" alt="" class="iconmedia">
+                    </a>
+                    <a href="https://www.youtube.com/@mnikonurc.h.y5211">
+                        <img src="image/youtube.png" alt="" class="iconmedia">
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- NAVBAR -->
+
+        <div class="mainkonten">
+            <div class="barInformasi">
+                <div class="judulData">
+                    <img src="image/user.png" alt="profil" class="profilImage">
+                    DATA PRIBADI
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Nama :</div>
+                    M.Niko Nur Cahyono
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Tempat / Tanggal lahir :</div>
+                    Blitar, 12 Januari 2004
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Jenis Kelamin :</div>
+                    Laki-Laki
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Agama :</div>
+                    Islam
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Alamat :</div>
+                    Dsn.Manukan RT02/RW02, Ds.Pojok, Kec.Garum, Kab.Blitar, Jawa Timur 66182
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Email :</div>
+                    mnikonurcahyono50@gmail.com
+                </div>
+                <div class="judulData1">
+                    <div class="judulData2">Instagram :</div>
+                    @nic_bot.labs
+                </div>
+            </div>
+            <div class="content">
+                <div class="subcontent">
+                    <div class="judulcontent">
+                        <img src="image/user content.png" alt="user content" width="50px" height="50px">
+                        <div class="judulconten1">
+                            TENTANG SAYA
+                        </div>
+                    </div>
+                    <div class="textcontent">
+                        Profesional berpengalaman 3 tahun dalam bidang IoT, perancangan sistem berbasis
+                        mikrokontroler dan pemrograman, baik dari segi hardware maupun software, memiliki latar
+                        belakang tenik elektronika industri, aktif bekerja di perusahaan teknologi, serta terus
+                        mengasah keahlian dalam inovasi .
+                    </div>
+                </div>
+                <div class="subcontent">
+                    <div class="judulcontent">
+                        <img src="image/graduate.png" alt="user content" width="50px" height="50px">
+                        <div class="judulconten1">
+                            RIWAYAT PENDIDIKAN
+                        </div>
+                    </div>
+                    <div class="textcontent">
+                        <ul class="pendidikan">
+                            <li>
+                                <b>Universitas Nahdlatul Ulama Blitar</b> (2024 – Sekarang)<br>
+                                S1 Ilmu Komputer
+                            </li>
+                            <li>
+                                <b>SMK Negeri 1 Nglegok</b> (2021 – 2024)<br>
+                                Teknik Elektronika Industri
+                            </li>
+                            <li>
+                                <b>SMP PGRI Garum</b> (2018 – 2021)
+                            </li>
+                            <li>
+                                <b>SDN Pojok 03</b> (2011 – 2018)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subcontent">
+                    <div class="judulcontent">
+                        <img src="image/skill.png" alt="user content" width="50px" height="50px">
+                        <div class="judulconten1">
+                            KEAHLIAN
+                        </div>
+                    </div>
+                    <div class="textcontent">
+                        <ul class="skill">
+                            <li>
+                                <div class="skill-name">PCB Hardware Design</div>
+                                <div class="bar">
+                                    <div class="level" style="width:96%"></div>
+                                </div>
+                                Software EasyEDA, Software Eagle, Software DipTrace.
+                            </li>
+                            <li>
+                                <div class="skill-name">Mikrokontroller</div>
+                                <div class="bar">
+                                    <div class="level" style="width:95%"></div>
+                                </div>
+                                Arduino Atmega 328P, Arduino Atmega 2560, Node MCU ESP32/2866, Mikrokontroller
+                                Raspberry
+                                pi pico, Mikrokontroller ST32.
+                            </li>
+                            <li>
+                                <div class="skill-name">Bahasa Pemrograman</div>
+                                <div class="bar">
+                                    <div class="level" style="width:75%"></div>
+                                </div>
+                                C/C++, Micro Python, Python, PHP, HTML, CSS, Java
+                            </li>
+                            <li>
+                                <div class="skill-name">Mikrokontroller</div>
+                                <div class="bar">
+                                    <div class="level" style="width:85%"></div>
+                                </div>
+                                Arduino Atmega 328P, Arduino Atmega 2560, Node MCU ESP32/2866, Mikrokontroller Raspberry
+                                pi pico, Mikrokontroller ST32.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subcontent">
+                    <div class="judulcontent">
+                        <img src="image/goal.png" alt="user content" width="50px" height="50px">
+                        <div class="judulconten1">
+                            PENCAPAIAN
+                        </div>
+                    </div>
+                    <div class="textcontent">
+                        <ul>
+                            <li>
+                                Membuat sistem ruangan otomatis (Smart Kamar) dengan internet of things
+                            </li>
+                            <li>
+                                Membuat sistem pendeteksi kebakaran dengan komunikasi CAN-Bus berbasis IoT
+                            </li>
+                            <li>
+                                Membuat sistem Internet of Things untuk mengontrol peralatan rumah dengan aplikasi
+                                smartphone menggunakan komunikasi protokol MQTT
+                            </li>
+                            <li>
+                                Membuat Smart Farming Berbasis IoT dengan penggunaan firebase
+                            </li>
+                            <li>
+                                Membuat sistem monitoring pH dan flow laju air menggunakan protokol https
+                            </li>
+                            <li>
+                                Membuat display JAM Digital untuk masjid menggunakan display P10
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subcontent">
+                    <div class="judulcontent">
+                        <img src="image/trophy.png" alt="user content" width="50px" height="50px">
+                        <div class="judulconten1">
+                            PENGHARGAAN
+                        </div>
+                    </div>
+                    <div class="textcontent">
+                        <ul class="pendidikan">
+                            <li>
+                                <b>KRENOTEK - Kreativitas Inovasi dan Teknologi</b> ( Februari 2025)<br>
+                                Peringkat ketiga kategori umum dan mahasiswa - inovasi bidang energi baru terbarukan -
+                                <b>Judul Inovasi :</b> Smart Monitoring System: Optimalisasi PLTS On Grid Berbasis Micro
+                                Inverter dengan IoT dan LoRaWAN untuk Energi Terbarukan Berkelanjutan di Kabupaten
+                                Blitar
+                            </li>
+                            <li>
+                                <b>LKTI Automation Week 6</b> (Desember 2023)<br>
+                                Memenangkan penghargaan poster inovasi terbaik - <b>Judul Inovasi :</b> Surabaya Smart
+                                Solutions For Sustainability
+                                (Revolutionizing Urban Living With Iot Innovation For Air Quality, Heat Mitigation, And
+                                Pollution Management)
+
+
+                            </li>
+                            <li>
+                                <b>International Modern Robotic Olympiad</b> (Oktober 2023)<br>
+                                Peringkat pertama kategori SMA/SMK - Internet of Things - <b>Judul Inovasi :</b>
+                                JIIS: JAKARTA Integrated IoT Strategy (Enhancing Air Quality , Mitigation Heat , and
+                                Managing pollution)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- KONTEN -->
+
+</body>
+
+</html>
